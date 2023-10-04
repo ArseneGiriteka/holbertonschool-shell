@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ~ ;echo -e '\n'
+cd ~ | echo -e '\n'
