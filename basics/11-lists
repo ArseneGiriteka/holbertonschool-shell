@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -l * & echo -e '\n' & ls -a -l .. & echo -e '\e' & ls -a -l /boot & echo -e '\n'
+ls -al /boot & echo -e '\n'  & ls -al .. & echo -e '\e' & ls -al . & echo -e '\n' 
