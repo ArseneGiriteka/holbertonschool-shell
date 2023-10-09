@@ -1,2 +1,2 @@
 #!/bin/bash
-| uniq -u | cat
+| uniq -u -exec cat
