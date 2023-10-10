@@ -1,2 +1,2 @@
 #!/bin/bash
-getent passwd | sort -n | cut -d ':' -f 1,6
+getent passwd | sort -d | cut -d ':' -f 1,6
