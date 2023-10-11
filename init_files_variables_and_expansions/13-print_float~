@@ -1,3 +1,0 @@
-#!/bin/bash
-NUM=12.566
-printf "%.2f" $NUM
