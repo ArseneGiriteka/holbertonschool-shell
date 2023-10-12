@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -type f -empty | xargs -L1 -I{} basname
