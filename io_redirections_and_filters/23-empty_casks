@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty | xargs -L1 -I{}  tr '*/' ''
+find . -type f -empty | xargs -L1 -I{}  tr '*/' '' | cat
