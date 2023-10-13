@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -e | tr -s ' ' '\\t' | tail -n +2 | sort -k 6 | sort -k 3 | head -n 11 | cut -f 1
