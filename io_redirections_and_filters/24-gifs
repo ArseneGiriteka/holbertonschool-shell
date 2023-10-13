@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -print "%f\n" | tr -d '.[:alnum:]' | sort -n -k1
+find . -type f -name "*.gif" -print "%f\n" -exec tr -n -k1 | tr -d '.[:alnum:]' |
