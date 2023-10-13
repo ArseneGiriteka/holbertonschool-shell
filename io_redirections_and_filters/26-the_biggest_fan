@@ -1,2 +1,2 @@
-0;10;1c#!/bin/bash
+#!/bin/bash
 cat -e | tr -s ' ' | tr ' ' '\t' | tail -n +2 | sort -k 3 | head -n 11 | cut -f 1 | uniq
