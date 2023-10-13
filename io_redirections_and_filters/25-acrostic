@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -e | cut -c 1 | tr -d '\n' | rev | cut --complement -c 1 | rev | xargs -I{} echo -e "{}"
+cat -e | cut -c 1 | tr -d '\n' | tr --complement -d '[:alnum:]' | xargs -I{} echo -e "{}"
