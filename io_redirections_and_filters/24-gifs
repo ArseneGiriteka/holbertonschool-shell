@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name '*.gif' -printf '%s %f\n' | tr '[:upper:]' '[:lower:]' |sort -n -k1 | tr -d '.gif' | tr -s ' ' | cut -d ' ' -f2-
+find . -type f -name '*.gif' -printf '%s %f\' | sort -n -f -k1 | awk '{sub(/\.gif$/, "", $2); print $2}'
